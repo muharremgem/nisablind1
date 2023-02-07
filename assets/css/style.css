@@ -112,9 +112,10 @@ h6 {
   }
 }
 
-
-.prgrs{
-  color: #0dcaf0;
+@media only screen and (max-width: 767px) {
+  .banner-shape {
+    display: none;
+  }
 }
 
 .scrollup {
@@ -3313,7 +3314,7 @@ h6 {
   position: absolute;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
-  background-color: #babbc9;
+  background-color: #f4c22d;
   border-top-right-radius: 80px;
   border-bottom-right-radius: 80px;
 }
